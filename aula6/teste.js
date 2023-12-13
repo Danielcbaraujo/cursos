@@ -4,10 +4,10 @@
 
 let nomeCompleto = 'Daniel'; //utilizamos calmCase 
 // o javaScript diferencia maiúsculas de minusculas
-// nao podemos recriar  uma variavél utilizando  let  mas podes modificar o valro
+// nao podemos recriar  uma variavél utilizando  let  mas podes modificar o valor
 
 let nome= 'Daniel';
-nome = 'Xuxua';
+nome = 'Xuxu';
 
 console.log(nome)
 
