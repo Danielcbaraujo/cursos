@@ -5,6 +5,6 @@ console.log(num1 + num2)
 
 const n =10
 const n2 = parseFloat('10.5')
-console.log(n +n2)
+console.log(n + n2)
 
 // print 20.5

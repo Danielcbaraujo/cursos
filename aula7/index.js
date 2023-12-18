@@ -1,7 +1,7 @@
 //Não podemos  criar constantes com palavras resevadas
 //Constantes precisam ter nomes significativos
-//Não pode começar o nome de uma consta com um número
-//Não pode conter espaçoe ou traços
+//Não pode começar o nome de uma const com um número
+//Não pode conter espaços ou traços
 //Utilizamos camelCase
 //Case-sensitive
 //Não podemos redeclarar variáveis com let
