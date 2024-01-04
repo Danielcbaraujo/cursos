@@ -1,15 +1,15 @@
+const pessoa = {
+ nome: 'Daniel',
+ sobrenome: 'Araujo',
+ idade: 39
+}
 
-//A desestruturação de array em JavaScript é uma maneira conveniente de extrair valores de um array e atribuí-los a variáveis individuais
+for (let chave in pessoa){ // em objetos ele vai ler as chaves do objetio , saida : nome, sobrenome, idade
+    console.log(chave);
+}
 
-// arrys são indexados  0   1  2  3  4  5  6  7  8
-       const numeros = [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000];
-       const [primeiroNumero, segundoNumero, ...resto] = numeros;
-       console.log(resto)
+//console.log(pessoa.nome);  = console.log(pessoa['nome'])
 
-      
-     
-      
-      
-      
-      
-      //console.log(primeiroNumero)
+for (let chave in pessoa){
+    console.log(chave, pessoa[chave]) // saida: nome Daniel , idade 39, sobrenome Araujo
+}

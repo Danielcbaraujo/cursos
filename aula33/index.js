@@ -1,10 +1,17 @@
-let a = 'A';// B
-let b = 'B';// C
-let c= 'C'; // A
+// vetor e um arry  unico
+const frutas = ['Pera', 'Maçã', 'Uva'];
 
-const letras = [b, c, a];//arry (atribuição  por desEstruturação)
- [a, b, c ] = letras; 
+// for ( let i = 0; i < frutas.length; i++){  neste trecho estamos contando aqui
 
- console.log(a, b, c);
+//     console.log(frutas[i])
+// saida : Pera, Maça, Uva
+// }
 
- //saida : B C A
+
+for (let i in frutas){  // aqui ele vai ler os indices deste array /
+    console.log(i) // saida 0, 1, 2 
+}
+
+for (let indice in frutas){  // aqui ele vai ler os indices deste array /
+    console.log(i) // saida 0, 1, 2 
+}
